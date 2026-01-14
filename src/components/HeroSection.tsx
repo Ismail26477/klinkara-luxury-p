@@ -27,7 +27,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-luxury text-center text-white py-32">
+      <div className="relative z-10 container-luxury text-center text-white py-20">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

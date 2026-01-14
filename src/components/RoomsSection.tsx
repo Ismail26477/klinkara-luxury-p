@@ -10,7 +10,7 @@ const rooms = [
     price: "₹7,500",
     period: "/month",
     description: "Budget-friendly option with great community vibes",
-    image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600&q=80",
+    image: "/images/1.jpeg", // replaced with real property image
     features: [
       "Shared room for 3",
       "Common bathroom",
@@ -25,7 +25,7 @@ const rooms = [
     price: "₹9,000",
     period: "/month",
     description: "Ideal balance of privacy and companionship",
-    image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80",
+    image: "/images/2.jpeg", // replaced with real property image
     features: [
       "Shared room for 2",
       "Attached bathroom",
@@ -40,7 +40,7 @@ const rooms = [
     price: "₹16,000",
     period: "/month",
     description: "Perfect for those who value privacy and personal space",
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&q=80",
+    image: "/images/3.jpeg", // replaced with real property image
     features: ["Private room", "Attached bathroom", "Study table & chair", "Wardrobe", "All amenities included"],
     popular: false,
   },

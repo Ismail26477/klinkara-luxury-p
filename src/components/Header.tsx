@@ -52,8 +52,8 @@ const Header = () => {
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-gold to-gold-light flex items-center justify-center">
               <span className="font-display text-xl font-bold text-primary">K</span>
             </div>
-            <div className="hidden sm:block">
-              <h1 className="font-display text-xl font-bold text-foreground">Klinkara</h1>
+            <div>
+              <h1 className="font-display text-lg md:text-xl font-bold text-foreground">Klinkara</h1>
               <p className="text-xs text-muted-foreground tracking-widest uppercase">Luxury PG</p>
             </div>
           </a>
@@ -94,7 +94,7 @@ const Header = () => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden glass-effect mt-4 mx-4 rounded-2xl overflow-hidden"
+              className="lg:hidden glass-effect mt-4 rounded-2xl overflow-hidden mx-4 sm:mx-6"
             >
               <div className="p-6 space-y-4">
                 {navLinks.map((link) => (

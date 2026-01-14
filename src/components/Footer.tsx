@@ -116,9 +116,11 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-white/70">
-                  456 Prestige Tower, Kalyani Nagar
+                  HPF2+3G9, Maan Road, Phase 3
                   <br />
-                  Pune, Maharashtra 411006
+                  Hinjawadi, Pimpri-Chinchwad
+                  <br />
+                  Pune, Maharashtra 411057
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -134,7 +136,7 @@ const Footer = () => {
             {/* Small Map */}
             <div className="mt-6 rounded-xl overflow-hidden h-32">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5965898744387!2d73.86474811482188!3d18.535218990879193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3e4c3e4c3e5%3A0xc3e4c3e4c3e4c3e4!2sKalyani%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1234567890123!2d73.75291!3d18.60356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc37e4a4a4a4a4b%3A0x4a4a4a4a4a4a4a4a!2sHinjawadi%2C%20Pimpri-Chinchwad%2C%20Pune%2C%20Maharashtra%20411057!5e0!3m2!1sen!2sin!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

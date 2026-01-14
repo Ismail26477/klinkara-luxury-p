@@ -184,9 +184,9 @@ const BookingSection = () => {
                     className="w-full h-14 pl-12 pr-4 bg-secondary/50 border-0 rounded-xl text-foreground appearance-none cursor-pointer"
                   >
                     <option value="">Select Room Type</option>
-                    <option value="single">Single Sharing - ₹18,000/month</option>
-                    <option value="double">Double Sharing - ₹12,000/month</option>
-                    <option value="triple">Triple Sharing - ₹8,500/month</option>
+                    <option value="single">Single Sharing - ₹16,000/month</option>
+                    <option value="double">Double Sharing - ₹9,000/month</option>
+                    <option value="triple">Triple Sharing - ₹7,500/month</option>
                   </select>
                 </div>
 
